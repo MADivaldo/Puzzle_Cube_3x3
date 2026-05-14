@@ -113,7 +113,7 @@ As rotações acontecem através de transformações vetoriais 3D reais.
 ## Instalar dependências
 
 ```bash
-pip install pygame
+python -m pip install pygame
 ```
 
 ---
