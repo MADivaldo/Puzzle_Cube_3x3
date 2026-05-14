@@ -97,7 +97,7 @@ As rotações acontecem através de transformações vetoriais 3D reais.
 
 ## Versão Desktop
 
-* Python 3
+* Python 3.12
 * Pygame
 
 ## Versão Web (planejada)
@@ -110,44 +110,56 @@ As rotações acontecem através de transformações vetoriais 3D reais.
 
 # Como Executar
 
-# Instalar Python (Caso Não Esteja Instalado)
+# Instalar Python 3.12
 
-Se ao executar `python` aparecer uma mensagem dizendo que o Python não foi encontrado, instale diretamente pelo terminal do Windows.
+Caso o Python não esteja instalado, primeiro instale o installer oficial do Python para Windows:
+
+[Python Download Windows](https://www.python.org/downloads/windows/?utm_source=chatgpt.com)
+
+Durante a instalação:
+
+* Marque a opção:
+
+```text id="pq3sqx"
+Add Python to PATH
+```
+
+* Clique em:
+
+```text id="0b2js5"
+Install Now
+```
 
 ---
 
-## Instalar Python via Terminal (Windows)
+## Instalar Python 3.12.10 pelo terminal
 
-Abra o PowerShell e execute:
+Após instalar o Python e abrir novamente o terminal:
 
-```bash id="m0dn0p"
-winget install Python.Python.3
+```bash id="0kqmbf"
+winget install Python.Python.3.12 --version 3.12.10
 ```
 
 ---
 
 ## Verificar instalação
 
-Depois da instalação, feche e abra novamente o terminal.
-
-Teste com:
-
-```bash id="v4o8ut"
+```bash id="0xf53f"
 python --version
 ```
 
-O resultado esperado será algo semelhante a:
+Resultado esperado:
 
-```text id="0e7of4"
-Python 3.x.x
+```text id="8c2kvf"
+Python 3.12.10
 ```
 
 ---
 
 ## Instalar dependências
 
-```bash id="obwmr4"
-pip install pygame
+```bash id="s6qv34"
+python -m pip install pygame
 ```
 
 ---
@@ -159,13 +171,13 @@ pip install pygame
 3. Clique com botão direito em um espaço vazio
 4. Clique em:
 
-```text id="0lrlm5"
+```text id="jvq26v"
 Open in Terminal
 ```
 
 ou
 
-```text id="jlwmc4"
+```text id="rvvv8q"
 Abrir janela do PowerShell aqui
 ```
 
@@ -173,7 +185,7 @@ Abrir janela do PowerShell aqui
 
 ## Executar o projeto
 
-```bash id="t3l06j"
+```bash id="pxltcm"
 python prototipo_cubo_3x3_artefato_v9.py
 ```
 
@@ -183,7 +195,7 @@ A janela do Pygame será aberta automaticamente executando o protótipo.
 
 # Estrutura do Projeto
 
-```text id="w3u9gc"
+```text id="xjlwm4"
 /
 ├── prototipo_cubo_3x3_artefato_v9.py
 ├── README.md
