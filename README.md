@@ -6,6 +6,10 @@ O sistema permite navegar entre peças da face atual e realizar rotações de li
 
 ---
 
+## Resumo Visual
+
+![Resumo do funcionamento](images/cube_controls_overview.png)
+
 # Conceito
 
 O cubo funciona como um objeto tridimensional manipulável.
