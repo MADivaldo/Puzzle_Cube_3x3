@@ -110,10 +110,44 @@ As rotações acontecem através de transformações vetoriais 3D reais.
 
 # Como Executar
 
+# Instalar Python (Caso Não Esteja Instalado)
+
+Se ao executar `python` aparecer uma mensagem dizendo que o Python não foi encontrado, instale diretamente pelo terminal do Windows.
+
+---
+
+## Instalar Python via Terminal (Windows)
+
+Abra o PowerShell e execute:
+
+```bash id="m0dn0p"
+winget install Python.Python.3
+```
+
+---
+
+## Verificar instalação
+
+Depois da instalação, feche e abra novamente o terminal.
+
+Teste com:
+
+```bash id="v4o8ut"
+python --version
+```
+
+O resultado esperado será algo semelhante a:
+
+```text id="0e7of4"
+Python 3.x.x
+```
+
+---
+
 ## Instalar dependências
 
-```bash
-python -m pip install pygame
+```bash id="obwmr4"
+pip install pygame
 ```
 
 ---
@@ -125,13 +159,13 @@ python -m pip install pygame
 3. Clique com botão direito em um espaço vazio
 4. Clique em:
 
-```text
+```text id="0lrlm5"
 Open in Terminal
 ```
 
 ou
 
-```text
+```text id="jlwmc4"
 Abrir janela do PowerShell aqui
 ```
 
@@ -139,7 +173,7 @@ Abrir janela do PowerShell aqui
 
 ## Executar o projeto
 
-```bash
+```bash id="t3l06j"
 python prototipo_cubo_3x3_artefato_v9.py
 ```
 
@@ -149,7 +183,7 @@ A janela do Pygame será aberta automaticamente executando o protótipo.
 
 # Estrutura do Projeto
 
-```text
+```text id="w3u9gc"
 /
 ├── prototipo_cubo_3x3_artefato_v9.py
 ├── README.md
